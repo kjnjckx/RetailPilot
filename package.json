@@ -1,0 +1,35 @@
+{
+  "name": "retailpilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/start.mjs",
+    "dev:frontend": "vite --host 127.0.0.1 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": ".venv/bin/python -m unittest discover -s tests -v",
+    "format": "prettier --write src vite.config.ts",
+    "start": "node scripts/start.mjs --production",
+    "server": ".venv/bin/python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload",
+    "test:browser": "playwright test",
+    "check": "npm test && npm run test:frontend && npm run build && .venv/bin/ruff check backend tests scripts && prettier --check src playwright.config.ts tests/browser",
+    "benchmark": ".venv/bin/python -m scripts.benchmark",
+    "test:frontend": "node --test tests/frontend-helpers.test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "prettier": "^3.9.9",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0"
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "version": "frozen-2026-10-01-v1",
+  "fixture": "tests.fixtures.metric_data",
+  "coverage": [
+    "2026-07-01",
+    "2026-08-31"
+  ],
+  "cases": [
+    {
+      "id": "Q01",
+      "group": "基础聚合",
+      "question": "2026 年 8 月净销售额是多少？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        5000
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q02",
+      "group": "基础聚合",
+      "question": "2026 年 8 月有效订单数是多少？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        3
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q03",
+      "group": "基础聚合",
+      "question": "2026 年 8 月客单价是多少？",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        1667
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q04",
+      "group": "基础聚合",
+      "question": "2026 年 8 月净销量是多少？",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        6
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q05",
+      "group": "基础聚合",
+      "question": "2026 年 8 月甲门店净销售额是多少？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q06",
+      "group": "基础聚合",
+      "question": "2026 年 8 月甲门店有效订单数是多少？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        1
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q07",
+      "group": "基础聚合",
+      "question": "2026 年 8 月甲门店客单价是多少？",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q08",
+      "group": "基础聚合",
+      "question": "2026 年 8 月甲门店净销量是多少？",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        4
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q09",
+      "group": "基础聚合",
+      "question": "2026 年 8 月乙门店净销售额是多少？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "B"
+      ],
+      "current": [
+        2000
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q10",
+      "group": "基础聚合",
+      "question": "2026 年 8 月乙门店有效订单数是多少？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "B"
+      ],
+      "current": [
+        2
+      ],
+      "previous": null,
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q11",
+      "group": "趋势比较",
+      "question": "2026 年 8 月净销售额相比 7 月变化多少？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        5000
+      ],
+      "previous": [
+        14000
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q12",
+      "group": "趋势比较",
+      "question": "2026 年 8 月有效订单数相比 7 月变化多少？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        3
+      ],
+      "previous": [
+        2
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q13",
+      "group": "趋势比较",
+      "question": "2026 年 8 月客单价相比 7 月变化多少？",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        1667
+      ],
+      "previous": [
+        7000
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q14",
+      "group": "趋势比较",
+      "question": "2026 年 8 月净销量相比 7 月变化多少？",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        6
+      ],
+      "previous": [
+        3
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q15",
+      "group": "趋势比较",
+      "question": "2026 年 8 月甲门店净销售额相比 7 月变化多少？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": [
+        4000
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q16",
+      "group": "趋势比较",
+      "question": "2026 年 8 月甲门店有效订单数相比 7 月变化多少？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        1
+      ],
+      "previous": [
+        1
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q17",
+      "group": "趋势比较",
+      "question": "2026 年 8 月甲门店客单价相比 7 月变化多少？",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": [
+        4000
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q18",
+      "group": "趋势比较",
+      "question": "2026 年 8 月甲门店净销量相比 7 月变化多少？",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        4
+      ],
+      "previous": [
+        1
+      ],
+      "ranking": null,
+      "abnormal": null
+    },
+    {
+      "id": "Q19",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店净销售额排名如何？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        5000
+      ],
+      "previous": null,
+      "ranking": [
+        "A",
+        "B",
+        "C"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q20",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店有效订单数排名如何？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        3
+      ],
+      "previous": null,
+      "ranking": [
+        "B",
+        "A",
+        "C"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q21",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店客单价排名如何？",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        1667
+      ],
+      "previous": null,
+      "ranking": [
+        "A",
+        "B",
+        "C"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q22",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店净销量排名如何？",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        6
+      ],
+      "previous": null,
+      "ranking": [
+        "A",
+        "B",
+        "C"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q23",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店华东净销售额排名如何？",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "C"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": null,
+      "ranking": [
+        "A",
+        "C"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q24",
+      "group": "维度拆解",
+      "question": "2026 年 8 月各门店华南有效订单数排名如何？",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "B"
+      ],
+      "current": [
+        2
+      ],
+      "previous": null,
+      "ranking": [
+        "B"
+      ],
+      "abnormal": null
+    },
+    {
+      "id": "Q25",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月乙门店净销售额相比 7 月的变化并形成报告",
+      "metrics": [
+        "net"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "B"
+      ],
+      "current": [
+        2000
+      ],
+      "previous": [
+        10000
+      ],
+      "ranking": null,
+      "abnormal": false
+    },
+    {
+      "id": "Q26",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月乙门店客单价相比 7 月的变化并形成报告",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "B"
+      ],
+      "current": [
+        1000
+      ],
+      "previous": [
+        10000
+      ],
+      "ranking": null,
+      "abnormal": true
+    },
+    {
+      "id": "Q27",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月甲门店客单价相比 7 月的变化并形成报告",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A"
+      ],
+      "current": [
+        3000
+      ],
+      "previous": [
+        4000
+      ],
+      "ranking": null,
+      "abnormal": true
+    },
+    {
+      "id": "Q28",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月客单价相比 7 月的变化并形成报告",
+      "metrics": [
+        "average"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        1667
+      ],
+      "previous": [
+        7000
+      ],
+      "ranking": null,
+      "abnormal": true
+    },
+    {
+      "id": "Q29",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月有效订单数相比 7 月的变化并形成报告",
+      "metrics": [
+        "orders"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        3
+      ],
+      "previous": [
+        2
+      ],
+      "ranking": null,
+      "abnormal": false
+    },
+    {
+      "id": "Q30",
+      "group": "异常与报告",
+      "question": "请分析 2026 年 8 月净销量相比 7 月的变化并形成报告",
+      "metrics": [
+        "quantity"
+      ],
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "scope": [
+        "A",
+        "B",
+        "C"
+      ],
+      "current": [
+        6
+      ],
+      "previous": [
+        3
+      ],
+      "ranking": null,
+      "abnormal": false
+    }
+  ]
+}

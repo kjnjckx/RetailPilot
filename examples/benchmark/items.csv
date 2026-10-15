@@ -1,0 +1,5 @@
+order_id,line_id,product_id,quantity,returned_quantity,paid_amount,refund_amount
+BENCH-001,1,P01,100,0,60000.00,0.00
+BENCH-002,1,P02,80,0,40000.00,0.00
+BENCH-003,1,P01,70,0,45000.00,0.00
+BENCH-004,1,P02,65,0,35000.00,0.00

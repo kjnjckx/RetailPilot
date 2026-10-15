@@ -1,0 +1,417 @@
+{
+  "at": "2026-10-01T16:15:33.369791+00:00",
+  "environment": {
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "python": "3.13.13",
+    "cpu": "arm",
+    "sqlite": "3.50.4"
+  },
+  "transport": "FastAPI TestClient in-process; not network or remote deployment latency",
+  "sizes": [
+    {
+      "items_per_version": 1000,
+      "versions": 5,
+      "task_history": 1000,
+      "report_history": 1000,
+      "csv_bytes": 81303,
+      "import_publish_ms": [
+        27.246,
+        24.813,
+        29.602,
+        26.376,
+        26.187
+      ],
+      "cold_dashboard": {
+        "samples": 50,
+        "p50_ms": 5.792,
+        "p95_ms": 6.075,
+        "max_ms": 7.38,
+        "max_response_bytes": 8785,
+        "failures": 0
+      },
+      "hot_dashboard": {
+        "samples": 50,
+        "p50_ms": 2.119,
+        "p95_ms": 2.296,
+        "max_ms": 3.752,
+        "max_response_bytes": 8785,
+        "failures": 0
+      },
+      "endpoints": {
+        "/api/versions": {
+          "samples": 50,
+          "p50_ms": 1.641,
+          "p95_ms": 1.96,
+          "max_ms": 2.096,
+          "max_response_bytes": 4796,
+          "failures": 0
+        },
+        "/api/tasks?page=1": {
+          "samples": 50,
+          "p50_ms": 89.752,
+          "p95_ms": 91.641,
+          "max_ms": 99.153,
+          "max_response_bytes": 7234,
+          "failures": 0
+        },
+        "/api/reports?page=1": {
+          "samples": 50,
+          "p50_ms": 91.79,
+          "p95_ms": 93.427,
+          "max_ms": 97.147,
+          "max_response_bytes": 8973,
+          "failures": 0
+        },
+        "/api/imports?page=1": {
+          "samples": 50,
+          "p50_ms": 1.608,
+          "p95_ms": 1.881,
+          "max_ms": 3.397,
+          "max_response_bytes": 2852,
+          "failures": 0
+        }
+      },
+      "five_concurrent_users": [
+        {
+          "samples": 50,
+          "p50_ms": 9.87,
+          "p95_ms": 10.851,
+          "max_ms": 24.953,
+          "max_response_bytes": 8785,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.995,
+          "p95_ms": 11.061,
+          "max_ms": 29.788,
+          "max_response_bytes": 8785,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.939,
+          "p95_ms": 10.802,
+          "max_ms": 29.172,
+          "max_response_bytes": 8785,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.867,
+          "p95_ms": 11.089,
+          "max_ms": 25.159,
+          "max_response_bytes": 8785,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.964,
+          "p95_ms": 11.044,
+          "max_ms": 25.434,
+          "max_response_bytes": 8785,
+          "failures": 0
+        }
+      ],
+      "concurrency_transport": "five AsyncClients on one ASGI event loop, with simultaneous import",
+      "parallel_import": {
+        "duration_ms": 33.051,
+        "status": 200
+      },
+      "analysis_stages": [
+        {
+          "role": "规划",
+          "duration_ms": 28.6
+        },
+        {
+          "role": "查询",
+          "duration_ms": 3.405
+        },
+        {
+          "role": "统计分析",
+          "duration_ms": 1.711
+        },
+        {
+          "role": "结果检查",
+          "duration_ms": 2.531
+        },
+        {
+          "role": "报告编制",
+          "duration_ms": 2.408
+        }
+      ],
+      "peak_rss_bytes": 169852928,
+      "database_bytes": 21614592
+    },
+    {
+      "items_per_version": 10000,
+      "versions": 5,
+      "task_history": 1000,
+      "report_history": 1000,
+      "csv_bytes": 828843,
+      "import_publish_ms": [
+        231.697,
+        224.562,
+        225.953,
+        226.88,
+        230.247
+      ],
+      "cold_dashboard": {
+        "samples": 50,
+        "p50_ms": 26.19,
+        "p95_ms": 26.84,
+        "max_ms": 27.749,
+        "max_response_bytes": 9018,
+        "failures": 0
+      },
+      "hot_dashboard": {
+        "samples": 50,
+        "p50_ms": 2.138,
+        "p95_ms": 2.196,
+        "max_ms": 2.46,
+        "max_response_bytes": 9018,
+        "failures": 0
+      },
+      "endpoints": {
+        "/api/versions": {
+          "samples": 50,
+          "p50_ms": 1.633,
+          "p95_ms": 1.813,
+          "max_ms": 2.067,
+          "max_response_bytes": 4801,
+          "failures": 0
+        },
+        "/api/tasks?page=1": {
+          "samples": 50,
+          "p50_ms": 92.918,
+          "p95_ms": 95.169,
+          "max_ms": 96.559,
+          "max_response_bytes": 7234,
+          "failures": 0
+        },
+        "/api/reports?page=1": {
+          "samples": 50,
+          "p50_ms": 94.242,
+          "p95_ms": 96.96,
+          "max_ms": 103.656,
+          "max_response_bytes": 8973,
+          "failures": 0
+        },
+        "/api/imports?page=1": {
+          "samples": 50,
+          "p50_ms": 1.613,
+          "p95_ms": 1.762,
+          "max_ms": 2.051,
+          "max_response_bytes": 2857,
+          "failures": 0
+        }
+      },
+      "five_concurrent_users": [
+        {
+          "samples": 50,
+          "p50_ms": 10.017,
+          "p95_ms": 11.299,
+          "max_ms": 150.905,
+          "max_response_bytes": 9018,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 10.196,
+          "p95_ms": 11.787,
+          "max_ms": 141.252,
+          "max_response_bytes": 9018,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 10.067,
+          "p95_ms": 12.115,
+          "max_ms": 117.55,
+          "max_response_bytes": 9018,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 10.038,
+          "p95_ms": 11.08,
+          "max_ms": 151.449,
+          "max_response_bytes": 9018,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 10.164,
+          "p95_ms": 11.028,
+          "max_ms": 151.549,
+          "max_response_bytes": 9018,
+          "failures": 0
+        }
+      ],
+      "concurrency_transport": "five AsyncClients on one ASGI event loop, with simultaneous import",
+      "parallel_import": {
+        "duration_ms": 183.923,
+        "status": 200
+      },
+      "analysis_stages": [
+        {
+          "role": "规划",
+          "duration_ms": 28.381
+        },
+        {
+          "role": "查询",
+          "duration_ms": 2.879
+        },
+        {
+          "role": "统计分析",
+          "duration_ms": 1.612
+        },
+        {
+          "role": "结果检查",
+          "duration_ms": 2.064
+        },
+        {
+          "role": "报告编制",
+          "duration_ms": 1.952
+        }
+      ],
+      "peak_rss_bytes": 294780928,
+      "database_bytes": 48828416
+    },
+    {
+      "items_per_version": 100000,
+      "versions": 5,
+      "task_history": 1000,
+      "report_history": 1000,
+      "csv_bytes": 8484243,
+      "import_publish_ms": [
+        2379.579,
+        2326.854,
+        2319.665,
+        2309.841,
+        2326.887
+      ],
+      "cold_dashboard": {
+        "samples": 50,
+        "p50_ms": 293.563,
+        "p95_ms": 296.14,
+        "max_ms": 300.81,
+        "max_response_bytes": 9259,
+        "failures": 0
+      },
+      "hot_dashboard": {
+        "samples": 50,
+        "p50_ms": 2.207,
+        "p95_ms": 2.347,
+        "max_ms": 2.529,
+        "max_response_bytes": 9259,
+        "failures": 0
+      },
+      "endpoints": {
+        "/api/versions": {
+          "samples": 50,
+          "p50_ms": 1.652,
+          "p95_ms": 1.794,
+          "max_ms": 1.856,
+          "max_response_bytes": 4806,
+          "failures": 0
+        },
+        "/api/tasks?page=1": {
+          "samples": 50,
+          "p50_ms": 95.64,
+          "p95_ms": 99.272,
+          "max_ms": 117.752,
+          "max_response_bytes": 7234,
+          "failures": 0
+        },
+        "/api/reports?page=1": {
+          "samples": 50,
+          "p50_ms": 97.772,
+          "p95_ms": 100.475,
+          "max_ms": 100.85,
+          "max_response_bytes": 8973,
+          "failures": 0
+        },
+        "/api/imports?page=1": {
+          "samples": 50,
+          "p50_ms": 1.639,
+          "p95_ms": 1.763,
+          "max_ms": 1.956,
+          "max_response_bytes": 2862,
+          "failures": 0
+        }
+      },
+      "five_concurrent_users": [
+        {
+          "samples": 50,
+          "p50_ms": 9.742,
+          "p95_ms": 22.263,
+          "max_ms": 910.82,
+          "max_response_bytes": 9259,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.661,
+          "p95_ms": 115.271,
+          "max_ms": 1263.481,
+          "max_response_bytes": 9259,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.855,
+          "p95_ms": 126.853,
+          "max_ms": 811.168,
+          "max_response_bytes": 9259,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.792,
+          "p95_ms": 21.945,
+          "max_ms": 938.626,
+          "max_response_bytes": 9259,
+          "failures": 0
+        },
+        {
+          "samples": 50,
+          "p50_ms": 9.87,
+          "p95_ms": 80.263,
+          "max_ms": 1145.699,
+          "max_response_bytes": 9259,
+          "failures": 0
+        }
+      ],
+      "concurrency_transport": "five AsyncClients on one ASGI event loop, with simultaneous import",
+      "parallel_import": {
+        "duration_ms": 1621.535,
+        "status": 200
+      },
+      "analysis_stages": [
+        {
+          "role": "规划",
+          "duration_ms": 28.567
+        },
+        {
+          "role": "查询",
+          "duration_ms": 3.725
+        },
+        {
+          "role": "统计分析",
+          "duration_ms": 1.634
+        },
+        {
+          "role": "结果检查",
+          "duration_ms": 2.286
+        },
+        {
+          "role": "报告编制",
+          "duration_ms": 2.246
+        }
+      ],
+      "peak_rss_bytes": 891764736,
+      "database_bytes": 320684032
+    }
+  ]
+}

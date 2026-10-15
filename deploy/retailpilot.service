@@ -1,0 +1,18 @@
+[Unit]
+Description=RetailPilot local application
+After=network.target
+
+[Service]
+Type=simple
+User=retailpilot
+WorkingDirectory=/opt/retailpilot
+EnvironmentFile=/etc/retailpilot.env
+ExecStart=/opt/retailpilot/.venv/bin/python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --workers 2 --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
